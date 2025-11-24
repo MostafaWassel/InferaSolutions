@@ -226,82 +226,82 @@ export default function Home() {
       </section>
 
       {/* Global Reach Section */}
-      <section className="py-12 bg-slate-50 border-b border-slate-200">
+      <section className="py-12 bg-slate-50 dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-lg text-slate-600 font-medium">
-            Delivering innovative solutions to <span className="text-slate-900 font-bold">startups and enterprises worldwide</span> — from concept to deployment.
+          <p className="text-lg text-slate-600 dark:text-slate-300 font-medium">
+            Delivering innovative solutions to <span className="text-slate-900 dark:text-white font-bold">startups and enterprises worldwide</span> — from concept to deployment.
           </p>
         </div>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-24 bg-white">
+      <section id="services" className="py-24 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-teal-600 font-bold tracking-wide uppercase text-sm mb-2">What We Do</h2>
-            <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Comprehensive AI & Software Solutions</h3>
-            <p className="text-slate-600 text-lg">We offer end-to-end services in AI integration, custom software development, and strategic technical consulting to accelerate your digital transformation.</p>
+            <h2 className="text-teal-600 dark:text-teal-400 font-bold tracking-wide uppercase text-sm mb-2">What We Do</h2>
+            <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-4">Comprehensive AI & Software Solutions</h3>
+            <p className="text-slate-600 dark:text-slate-300 text-lg">We offer end-to-end services in AI integration, custom software development, and strategic technical consulting to accelerate your digital transformation.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service 1 */}
-            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+            <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+              <div className="w-14 h-14 bg-blue-50 dark:bg-blue-900/30 rounded-xl flex items-center justify-center text-blue-600 dark:text-blue-400 text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
                 <span>🤖</span>
               </div>
-              <h4 className="text-xl font-bold text-slate-900 mb-3">AI & Machine Learning Solutions</h4>
-              <p className="text-slate-600 leading-relaxed mb-4">Custom AI models, intelligent automation, predictive analytics, and LLM integration to solve complex business challenges and unlock new capabilities.</p>
-              <a href="#contact" className="text-teal-600 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
+              <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">AI & Machine Learning Solutions</h4>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Custom AI models, intelligent automation, predictive analytics, and LLM integration to solve complex business challenges and unlock new capabilities.</p>
+              <a href="#contact" className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
             </div>
 
             {/* Service 2 */}
-            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center text-purple-600 text-2xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+            <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+              <div className="w-14 h-14 bg-purple-50 dark:bg-purple-900/30 rounded-xl flex items-center justify-center text-purple-600 dark:text-purple-400 text-2xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition-colors">
                 <span>�</span>
               </div>
-              <h4 className="text-xl font-bold text-slate-900 mb-3">Custom Software Development</h4>
-              <p className="text-slate-600 leading-relaxed mb-4">Full-stack web and mobile applications, APIs, and enterprise systems built with modern frameworks and best practices for scalability and performance.</p>
-              <a href="#contact" className="text-teal-600 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
+              <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Custom Software Development</h4>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Full-stack web and mobile applications, APIs, and enterprise systems built with modern frameworks and best practices for scalability and performance.</p>
+              <a href="#contact" className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
             </div>
 
             {/* Service 3 */}
-            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600 text-2xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+            <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+              <div className="w-14 h-14 bg-teal-50 dark:bg-teal-900/30 rounded-xl flex items-center justify-center text-teal-600 dark:text-teal-400 text-2xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
                 <span>☁️</span>
               </div>
-              <h4 className="text-xl font-bold text-slate-900 mb-3">Cloud & DevOps Engineering</h4>
-              <p className="text-slate-600 leading-relaxed mb-4">Cloud architecture, containerization, CI/CD pipelines, and infrastructure automation for reliable, scalable deployments on AWS, Azure, or GCP.</p>
-              <a href="#contact" className="text-teal-600 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
+              <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Cloud & DevOps Engineering</h4>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Cloud architecture, containerization, CI/CD pipelines, and infrastructure automation for reliable, scalable deployments on AWS, Azure, or GCP.</p>
+              <a href="#contact" className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
             </div>
 
             {/* Service 4 */}
-            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-orange-50 rounded-xl flex items-center justify-center text-orange-600 text-2xl mb-6 group-hover:bg-orange-600 group-hover:text-white transition-colors">
+            <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+              <div className="w-14 h-14 bg-orange-50 dark:bg-orange-900/30 rounded-xl flex items-center justify-center text-orange-600 dark:text-orange-400 text-2xl mb-6 group-hover:bg-orange-600 group-hover:text-white transition-colors">
                 <span>📊</span>
               </div>
-              <h4 className="text-xl font-bold text-slate-900 mb-3">Data Engineering & Analytics</h4>
-              <p className="text-slate-600 leading-relaxed mb-4">Data pipelines, ETL processes, data warehousing, and business intelligence solutions to transform raw data into actionable insights.</p>
-              <a href="#contact" className="text-teal-600 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
+              <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Data Engineering & Analytics</h4>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Data pipelines, ETL processes, data warehousing, and business intelligence solutions to transform raw data into actionable insights.</p>
+              <a href="#contact" className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
             </div>
 
             {/* Service 5 */}
-            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 text-2xl mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+            <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+              <div className="w-14 h-14 bg-indigo-50 dark:bg-indigo-900/30 rounded-xl flex items-center justify-center text-indigo-600 dark:text-indigo-400 text-2xl mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
                 <span>🏗️</span>
               </div>
-              <h4 className="text-xl font-bold text-slate-900 mb-3">Technical Consulting & Architecture</h4>
-              <p className="text-slate-600 leading-relaxed mb-4">Strategic technology planning, system architecture design, code reviews, and technical leadership to guide your development initiatives.</p>
-              <a href="#contact" className="text-teal-600 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
+              <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Technical Consulting & Architecture</h4>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Strategic technology planning, system architecture design, code reviews, and technical leadership to guide your development initiatives.</p>
+              <a href="#contact" className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
             </div>
 
             {/* Service 6 */}
-            <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-green-50 rounded-xl flex items-center justify-center text-green-600 text-2xl mb-6 group-hover:bg-green-600 group-hover:text-white transition-colors">
+            <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+              <div className="w-14 h-14 bg-green-50 dark:bg-green-900/30 rounded-xl flex items-center justify-center text-green-600 dark:text-green-400 text-2xl mb-6 group-hover:bg-green-600 group-hover:text-white transition-colors">
                 <span>🔄</span>
               </div>
-              <h4 className="text-xl font-bold text-slate-900 mb-3">Process Automation & Integration</h4>
-              <p className="text-slate-600 leading-relaxed mb-4">Streamline operations with workflow automation, system integrations, API development, and intelligent process optimization solutions.</p>
-              <a href="#contact" className="text-teal-600 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
+              <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Process Automation & Integration</h4>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Streamline operations with workflow automation, system integrations, API development, and intelligent process optimization solutions.</p>
+              <a href="#contact" className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Get Started <span className="text-xs">→</span></a>
             </div>
           </div>
         </div>
@@ -399,55 +399,55 @@ export default function Home() {
       </section>
 
       {/* Technology Stack Section */}
-      <section className="py-24 bg-slate-50">
+      <section id="expertise" className="py-24 bg-slate-50 dark:bg-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-teal-600 font-bold tracking-wide uppercase text-sm mb-2">Our Expertise</h2>
-            <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Modern Technology Stack</h3>
-            <p className="text-slate-600 text-lg">We work with cutting-edge technologies to build scalable, high-performance solutions.</p>
+            <h2 className="text-teal-600 dark:text-teal-400 font-bold tracking-wide uppercase text-sm mb-2">Our Expertise</h2>
+            <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-4">Modern Technology Stack</h3>
+            <p className="text-slate-600 dark:text-slate-300 text-lg">We work with cutting-edge technologies to build scalable, high-performance solutions.</p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Frontend */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-              <h4 className="font-bold text-slate-900 mb-4 text-lg">Frontend</h4>
-              <ul className="space-y-2 text-slate-600">
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> React & Next.js</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> Vue & Angular</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> TypeScript</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> Tailwind CSS</li>
+            <div className="bg-white dark:bg-slate-900 p-6 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+              <h4 className="font-bold text-slate-900 dark:text-white mb-4 text-lg">Frontend</h4>
+              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> React & Next.js</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> Vue & Angular</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> TypeScript</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> Tailwind CSS</li>
               </ul>
             </div>
 
             {/* Backend */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-              <h4 className="font-bold text-slate-900 mb-4 text-lg">Backend</h4>
-              <ul className="space-y-2 text-slate-600">
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> Node.js & Python</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> Django & FastAPI</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> GraphQL & REST</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> Microservices</li>
+            <div className="bg-white dark:bg-slate-900 p-6 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+              <h4 className="font-bold text-slate-900 dark:text-white mb-4 text-lg">Backend</h4>
+              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> Node.js & Python</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> Django & FastAPI</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> GraphQL & REST</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> Microservices</li>
               </ul>
             </div>
 
             {/* AI & Data */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-              <h4 className="font-bold text-slate-900 mb-4 text-lg">AI & Data</h4>
-              <ul className="space-y-2 text-slate-600">
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> TensorFlow & PyTorch</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> OpenAI & LangChain</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> SQL & NoSQL</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> Data Pipelines</li>
+            <div className="bg-white dark:bg-slate-900 p-6 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+              <h4 className="font-bold text-slate-900 dark:text-white mb-4 text-lg">AI & Data</h4>
+              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> TensorFlow & PyTorch</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> OpenAI & LangChain</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> SQL & NoSQL</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> Data Pipelines</li>
               </ul>
             </div>
 
             {/* Cloud & DevOps */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
-              <h4 className="font-bold text-slate-900 mb-4 text-lg">Cloud & DevOps</h4>
-              <ul className="space-y-2 text-slate-600">
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> AWS & Azure & GCP</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> Docker & Kubernetes</li>
-                <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> CI/CD Pipelines</li>
+            <div className="bg-white dark:bg-slate-900 p-6 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+              <h4 className="font-bold text-slate-900 dark:text-white mb-4 text-lg">Cloud & DevOps</h4>
+              <ul className="space-y-2 text-slate-600 dark:text-slate-300">
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> AWS & Azure & GCP</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> Docker & Kubernetes</li>
+                <li className="flex items-center gap-2"><span className="text-teal-600 dark:text-teal-400">✓</span> CI/CD Pipelines</li>
                 <li className="flex items-center gap-2"><span className="text-teal-600">✓</span> Infrastructure as Code</li>
               </ul>
             </div>
