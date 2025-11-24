@@ -183,8 +183,8 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service 1 */}
             <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-6 shadow-md">
-                <span>AI</span>
+              <div className="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-blue-600 text-2xl mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                <span>🤖</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 mb-3">AI & Machine Learning Solutions</h4>
               <p className="text-slate-600 leading-relaxed mb-4">Custom AI models, intelligent automation, predictive analytics, and LLM integration to solve complex business challenges and unlock new capabilities.</p>
@@ -203,8 +203,8 @@ export default function Home() {
 
             {/* Service 3 */}
             <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-gradient-to-br from-teal-500 to-teal-700 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-6 shadow-md">
-                <span>CD</span>
+              <div className="w-14 h-14 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600 text-2xl mb-6 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+                <span>☁️</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 mb-3">Cloud & DevOps Engineering</h4>
               <p className="text-slate-600 leading-relaxed mb-4">Cloud architecture, containerization, CI/CD pipelines, and infrastructure automation for reliable, scalable deployments on AWS, Azure, or GCP.</p>
@@ -213,8 +213,8 @@ export default function Home() {
 
             {/* Service 4 */}
             <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-orange-700 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-6 shadow-md">
-                <span>DA</span>
+              <div className="w-14 h-14 bg-orange-50 rounded-xl flex items-center justify-center text-orange-600 text-2xl mb-6 group-hover:bg-orange-600 group-hover:text-white transition-colors">
+                <span>📊</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 mb-3">Data Engineering & Analytics</h4>
               <p className="text-slate-600 leading-relaxed mb-4">Data pipelines, ETL processes, data warehousing, and business intelligence solutions to transform raw data into actionable insights.</p>
@@ -223,8 +223,8 @@ export default function Home() {
 
             {/* Service 5 */}
             <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-gradient-to-br from-indigo-500 to-indigo-700 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-6 shadow-md">
-                <span>TC</span>
+              <div className="w-14 h-14 bg-indigo-50 rounded-xl flex items-center justify-center text-indigo-600 text-2xl mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                <span>🏗️</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 mb-3">Technical Consulting & Architecture</h4>
               <p className="text-slate-600 leading-relaxed mb-4">Strategic technology planning, system architecture design, code reviews, and technical leadership to guide your development initiatives.</p>
@@ -233,8 +233,8 @@ export default function Home() {
 
             {/* Service 6 */}
             <div className="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-              <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-green-700 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-6 shadow-md">
-                <span>PA</span>
+              <div className="w-14 h-14 bg-green-50 rounded-xl flex items-center justify-center text-green-600 text-2xl mb-6 group-hover:bg-green-600 group-hover:text-white transition-colors">
+                <span>🔄</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 mb-3">Process Automation & Integration</h4>
               <p className="text-slate-600 leading-relaxed mb-4">Streamline operations with workflow automation, system integrations, API development, and intelligent process optimization solutions.</p>
@@ -257,8 +257,8 @@ export default function Home() {
               
               <div className="space-y-6">
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-500 to-teal-700 rounded-full flex items-center justify-center text-white shadow-md text-sm font-bold">
-                    <span>ST</span>
+                  <div className="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center text-teal-600 shadow-sm text-xl border border-slate-100">
+                    <span>🚀</span>
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-slate-900">Rapid Innovation & Deployment</h4>
@@ -267,8 +267,8 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-500 to-teal-700 rounded-full flex items-center justify-center text-white shadow-md text-sm font-bold">
-                    <span>IN</span>
+                  <div className="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center text-teal-600 shadow-sm text-xl border border-slate-100">
+                    <span>💡</span>
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-slate-900">Modern Tech, Modern Thinking</h4>
@@ -277,8 +277,8 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-teal-500 to-teal-700 rounded-full flex items-center justify-center text-white shadow-md text-sm font-bold">
-                    <span>CL</span>
+                  <div className="flex-shrink-0 w-12 h-12 bg-white rounded-full flex items-center justify-center text-teal-600 shadow-sm text-xl border border-slate-100">
+                    <span>🤝</span>
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-slate-900">Collaborative Partnership</h4>
@@ -312,22 +312,22 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="p-4">
-              <div className="w-16 h-16 mx-auto bg-gradient-to-br from-teal-400 to-teal-600 rounded-lg flex items-center justify-center text-white text-xl font-bold mb-2 shadow-md">AG</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-teal-400 mb-2">🚀</div>
               <div className="text-sm md:text-base text-slate-400 font-medium uppercase tracking-wide">Agile Approach</div>
               <p className="text-xs text-slate-500 mt-2">Fast iterations, quick delivery</p>
             </div>
             <div className="p-4">
-              <div className="w-16 h-16 mx-auto bg-gradient-to-br from-teal-400 to-teal-600 rounded-lg flex items-center justify-center text-white text-xl font-bold mb-2 shadow-md">MS</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-teal-400 mb-2">💡</div>
               <div className="text-sm md:text-base text-slate-400 font-medium uppercase tracking-wide">Modern Stack</div>
               <p className="text-xs text-slate-500 mt-2">Latest technologies & frameworks</p>
             </div>
             <div className="p-4">
-              <div className="w-16 h-16 mx-auto bg-gradient-to-br from-teal-400 to-teal-600 rounded-lg flex items-center justify-center text-white text-xl font-bold mb-2 shadow-md">CF</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-teal-400 mb-2">🎯</div>
               <div className="text-sm md:text-base text-slate-400 font-medium uppercase tracking-wide">Client-Focused</div>
               <p className="text-xs text-slate-500 mt-2">Your success is our priority</p>
             </div>
             <div className="p-4">
-              <div className="w-16 h-16 mx-auto bg-gradient-to-br from-teal-400 to-teal-600 rounded-lg flex items-center justify-center text-white text-xl font-bold mb-2 shadow-md">QD</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-teal-400 mb-2">🔒</div>
               <div className="text-sm md:text-base text-slate-400 font-medium uppercase tracking-wide">Quality Driven</div>
               <p className="text-xs text-slate-500 mt-2">Best practices & security first</p>
             </div>
@@ -405,7 +405,7 @@ export default function Home() {
             {/* Project 1 */}
             <div className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-gradient-to-br from-blue-500 to-purple-600 p-8 flex items-center justify-center aspect-video">
-                <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg"><span className="text-5xl font-black text-blue-600">OC</span></div>
+                <span className="text-6xl">📝</span>
               </div>
               <div className="p-6">
                 <div className="flex gap-2 mb-3">
@@ -425,7 +425,7 @@ export default function Home() {
             {/* Project 2 */}
             <div className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-gradient-to-br from-green-500 to-teal-600 p-8 flex items-center justify-center aspect-video">
-                <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg"><span className="text-5xl font-black text-green-600">PR</span></div>
+                <span className="text-6xl">📊</span>
               </div>
               <div className="p-6">
                 <div className="flex gap-2 mb-3">
@@ -445,7 +445,7 @@ export default function Home() {
             {/* Project 3 */}
             <div className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-gradient-to-br from-red-500 to-pink-600 p-8 flex items-center justify-center aspect-video">
-                <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg"><span className="text-5xl font-black text-orange-600">CV</span></div>
+                <span className="text-6xl">👁️</span>
               </div>
               <div className="p-6">
                 <div className="flex gap-2 mb-3">
@@ -465,7 +465,7 @@ export default function Home() {
             {/* Project 4 */}
             <div className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-gradient-to-br from-orange-500 to-yellow-600 p-8 flex items-center justify-center aspect-video">
-                <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg"><span className="text-5xl font-black text-indigo-600">RS</span></div>
+                <span className="text-6xl">🛰️</span>
               </div>
               <div className="p-6">
                 <div className="flex gap-2 mb-3">
@@ -485,7 +485,7 @@ export default function Home() {
             {/* Project 5 */}
             <div className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-gradient-to-br from-indigo-500 to-blue-600 p-8 flex items-center justify-center aspect-video">
-                <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg"><span className="text-5xl font-black text-purple-600">RE</span></div>
+                <span className="text-6xl">💡</span>
               </div>
               <div className="p-6">
                 <div className="flex gap-2 mb-3">
@@ -505,7 +505,7 @@ export default function Home() {
             {/* Project 6 */}
             <div className="bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow">
               <div className="bg-gradient-to-br from-purple-500 to-indigo-600 p-8 flex items-center justify-center aspect-video">
-                <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg"><span className="text-5xl font-black text-red-600">HC</span></div>
+                <span className="text-6xl">🏥</span>
               </div>
               <div className="p-6">
                 <div className="flex gap-2 mb-3">
