@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/* Enable class-based dark mode */
+@layer utilities {
+  .dark {
+    color-scheme: dark;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,11 +19,17 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Support both preference-based and class-based dark mode */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
+  :root:not(.light) {
+    --background: #0f172a;
     --foreground: #ededed;
   }
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #ededed;
 }
 
 body {

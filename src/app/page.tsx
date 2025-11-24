@@ -1,9 +1,33 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    // Check for saved theme preference or default to light mode
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+      setIsDarkMode(true);
+      document.documentElement.classList.add('dark');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+    if (!isDarkMode) {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
+    }
+  };
+
   useEffect(() => {
     // Mobile menu toggle
     const btn = document.getElementById('mobile-menu-btn');
@@ -41,35 +65,74 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="font-sans text-slate-600 antialiased selection:bg-teal-500 selection:text-white">
+    <div className="font-sans antialiased selection:bg-teal-500 selection:text-white bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 transition-colors duration-300">
       {/* Navigation */}
-      <nav id="navbar" className="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all duration-300">
+      <nav id="navbar" className="fixed w-full z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-700 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0,0)}>
-              <div className="w-10 h-10 bg-teal-600 rounded-lg flex items-center justify-center text-white font-bold text-xl shadow-lg">
-                <span>🧠</span>
-              </div>
-              <span className="font-bold text-2xl text-slate-900 tracking-tight">
-                Infera<span className="text-teal-600">Solutions</span>
+            <div className="flex-shrink-0 flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo(0,0)}>
+              <Image 
+                src="/logo.svg" 
+                alt="Infera Solutions Logo" 
+                width={40} 
+                height={40}
+                className="w-10 h-10"
+              />
+              <span className="font-bold text-2xl text-slate-900 dark:text-white tracking-tight">
+                Infera<span className="text-teal-600 dark:text-teal-400">Solutions</span>
               </span>
             </div>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8 items-center">
-              <a href="#services" className="text-slate-600 hover:text-teal-600 font-medium transition-colors">Services</a>
-              <a href="#expertise" className="text-slate-600 hover:text-teal-600 font-medium transition-colors">Expertise</a>
-              <a href="#approach" className="text-slate-600 hover:text-teal-600 font-medium transition-colors">Our Approach</a>
-              <a href="#about" className="text-slate-600 hover:text-teal-600 font-medium transition-colors">About</a>
-              <a href="#contact" className="px-5 py-2.5 bg-teal-600 text-white rounded-full font-medium hover:bg-teal-700 transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5 duration-200">
+              <a href="#services" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Services</a>
+              <a href="#expertise" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Expertise</a>
+              <a href="#approach" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Our Approach</a>
+              <a href="#about" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">About</a>
+              
+              {/* Dark Mode Toggle */}
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
+                aria-label="Toggle dark mode"
+              >
+                {isDarkMode ? (
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                ) : (
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                  </svg>
+                )}
+              </button>
+
+              <a href="#contact" className="px-5 py-2.5 bg-teal-600 dark:bg-teal-500 text-white rounded-full font-medium hover:bg-teal-700 dark:hover:bg-teal-600 transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5 duration-200">
                 Get Started
               </a>
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="md:hidden flex items-center">
-              <button id="mobile-menu-btn" className="text-slate-600 hover:text-teal-600 focus:outline-none">
+            <div className="md:hidden flex items-center gap-3">
+              {/* Dark Mode Toggle - Mobile */}
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300"
+                aria-label="Toggle dark mode"
+              >
+                {isDarkMode ? (
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
+                ) : (
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                  </svg>
+                )}
+              </button>
+
+              <button id="mobile-menu-btn" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 focus:outline-none">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -79,14 +142,14 @@ export default function Home() {
         </div>
 
         {/* Mobile Menu Panel */}
-        <div id="mobile-menu" className="md:hidden hidden bg-white border-t border-gray-100 absolute w-full shadow-xl">
+        <div id="mobile-menu" className="md:hidden hidden bg-white dark:bg-slate-900 border-t border-gray-100 dark:border-slate-700 absolute w-full shadow-xl">
           <div className="px-4 pt-2 pb-6 space-y-2">
-            <a href="#services" className="block px-3 py-3 rounded-md text-base font-medium text-slate-700 hover:text-teal-600 hover:bg-slate-50">Services</a>
-            <a href="#expertise" className="block px-3 py-3 rounded-md text-base font-medium text-slate-700 hover:text-teal-600 hover:bg-slate-50">Expertise</a>
-            <a href="#approach" className="block px-3 py-3 rounded-md text-base font-medium text-slate-700 hover:text-teal-600 hover:bg-slate-50">Our Approach</a>
-            <a href="#about" className="block px-3 py-3 rounded-md text-base font-medium text-slate-700 hover:text-teal-600 hover:bg-slate-50">About</a>
+            <a href="#services" className="block px-3 py-3 rounded-md text-base font-medium text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 hover:bg-slate-50 dark:hover:bg-slate-800">Services</a>
+            <a href="#expertise" className="block px-3 py-3 rounded-md text-base font-medium text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 hover:bg-slate-50 dark:hover:bg-slate-800">Expertise</a>
+            <a href="#approach" className="block px-3 py-3 rounded-md text-base font-medium text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 hover:bg-slate-50 dark:hover:bg-slate-800">Our Approach</a>
+            <a href="#about" className="block px-3 py-3 rounded-md text-base font-medium text-slate-700 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 hover:bg-slate-50 dark:hover:bg-slate-800">About</a>
             <div className="pt-4">
-              <a href="#contact" className="block w-full text-center px-5 py-3 bg-teal-600 text-white rounded-lg font-medium hover:bg-teal-700">
+              <a href="#contact" className="block w-full text-center px-5 py-3 bg-teal-600 dark:bg-teal-500 text-white rounded-lg font-medium hover:bg-teal-700 dark:hover:bg-teal-600">
                 Get Started
               </a>
             </div>
@@ -638,15 +701,21 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
+      <footer className="bg-slate-900 dark:bg-slate-950 text-slate-300 dark:text-slate-400 py-12 border-t border-slate-800 dark:border-slate-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="col-span-1 md:col-span-1">
-              <div className="flex items-center gap-2 mb-4 text-white">
-                <span className="text-teal-500 text-xl">🧠</span>
-                <span className="font-bold text-xl">Infera<span className="text-teal-500">Solutions</span></span>
+              <div className="flex items-center gap-3 mb-4 text-white">
+                <Image 
+                  src="/logo.svg" 
+                  alt="Infera Solutions Logo" 
+                  width={32} 
+                  height={32}
+                  className="w-8 h-8"
+                />
+                <span className="font-bold text-xl">Infera<span className="text-teal-500 dark:text-teal-400">Solutions</span></span>
               </div>
-              <p className="text-sm text-slate-400 mb-6">Transforming complex data into actionable intelligence through cutting-edge AI and ML solutions.</p>
+              <p className="text-sm text-slate-400 dark:text-slate-500 mb-6">Transforming complex data into actionable intelligence through cutting-edge AI and ML solutions.</p>
               <div className="flex space-x-4">
                 <a href="https://www.linkedin.com/in/mostafa-wassel" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">in</a>
                 <a href="mailto:mostafa.wassel.dio@gmail.com" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">✉</a>
