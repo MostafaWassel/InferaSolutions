@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Infera Solutions | AI-Driven Software Development & Consulting",
   description: "Transform your business with custom AI solutions, modern software development, and expert technical consulting. We build intelligent, scalable applications for startups and enterprises.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
