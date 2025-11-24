@@ -204,21 +204,75 @@ export default function Home() {
             </div>
             
             <div className="hidden lg:block relative mt-12 lg:mt-0">
-              {/* Decorative Graphic */}
-              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border border-slate-700 bg-slate-800/50 backdrop-blur-sm p-4">
-                <div className="rounded-xl overflow-hidden bg-slate-900 aspect-[4/3] relative group">
-                  <Image
-                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000"
-                    alt="Data Analytics Dashboard"
-                    fill
-                    className="object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80"></div>
-                  <div className="absolute bottom-6 left-6 text-white">
-                    <div className="text-sm font-semibold text-teal-400 mb-1">Live Analytics</div>
-                    <div className="text-2xl font-bold">Enterprise AI Integration</div>
+              {/* Creative AI Visualization */}
+              <div className="relative z-10">
+                {/* Animated Background Gradient */}
+                <div className="absolute inset-0 bg-gradient-to-br from-teal-500/20 via-blue-500/20 to-purple-500/20 rounded-3xl blur-3xl animate-pulse"></div>
+                
+                {/* Main Card */}
+                <div className="relative bg-slate-800/90 dark:bg-slate-900/90 backdrop-blur-xl rounded-3xl p-8 border border-slate-700/50 dark:border-slate-600/50 shadow-2xl">
+                  {/* Header */}
+                  <div className="flex items-center gap-3 mb-6">
+                    <div className="w-12 h-12 bg-gradient-to-br from-teal-400 to-blue-500 rounded-xl flex items-center justify-center shadow-lg">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <div className="text-sm font-semibold text-teal-400">AI Processing</div>
+                      <div className="text-xs text-slate-400">Real-time Intelligence</div>
+                    </div>
+                  </div>
+
+                  {/* Stats Grid */}
+                  <div className="grid grid-cols-2 gap-4 mb-6">
+                    <div className="bg-slate-900/50 dark:bg-black/30 rounded-xl p-4 border border-slate-700/50">
+                      <div className="text-3xl font-bold text-white mb-1">98.5%</div>
+                      <div className="text-xs text-slate-400">Model Accuracy</div>
+                      <div className="mt-2 h-1 bg-slate-700 rounded-full overflow-hidden">
+                        <div className="h-full bg-gradient-to-r from-teal-400 to-blue-500 w-[98.5%]"></div>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-slate-900/50 dark:bg-black/30 rounded-xl p-4 border border-slate-700/50">
+                      <div className="text-3xl font-bold text-white mb-1">24/7</div>
+                      <div className="text-xs text-slate-400">Automation</div>
+                      <div className="mt-2 h-1 bg-slate-700 rounded-full overflow-hidden">
+                        <div className="h-full bg-gradient-to-r from-purple-400 to-pink-500 w-full animate-pulse"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Activity Feed */}
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3 text-sm">
+                      <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                      <span className="text-slate-300">Neural Network Training</span>
+                      <span className="ml-auto text-teal-400 font-mono text-xs">Active</span>
+                    </div>
+                    <div className="flex items-center gap-3 text-sm">
+                      <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                      <span className="text-slate-300">Data Pipeline Processing</span>
+                      <span className="ml-auto text-blue-400 font-mono text-xs">Running</span>
+                    </div>
+                    <div className="flex items-center gap-3 text-sm">
+                      <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
+                      <span className="text-slate-300">API Endpoints Deployed</span>
+                      <span className="ml-auto text-purple-400 font-mono text-xs">Live</span>
+                    </div>
+                  </div>
+
+                  {/* Bottom Label */}
+                  <div className="mt-6 pt-4 border-t border-slate-700/50">
+                    <div className="text-xs text-slate-400 text-center">
+                      Powered by <span className="text-teal-400 font-semibold">Infera AI Engine</span>
+                    </div>
                   </div>
                 </div>
+
+                {/* Floating Elements */}
+                <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-br from-teal-400/20 to-blue-500/20 rounded-full blur-2xl animate-pulse"></div>
+                <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-gradient-to-br from-purple-400/20 to-pink-500/20 rounded-full blur-2xl animate-pulse delay-700"></div>
               </div>
             </div>
           </div>
