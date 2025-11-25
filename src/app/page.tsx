@@ -226,7 +226,7 @@ export default function Home() {
                 Transform Your Business with <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-300">AI-Driven Software Solutions</span>
               </h1>
               <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                We're a forward-thinking startup specializing in AI integration, custom software development, and technical consulting. From intelligent automation to scalable enterprise systems, we turn complex challenges into competitive advantages.
+                We're a forward-thinking startup specializing in AI Full Lifecycle, custom software development, and technical consulting. From intelligent automation to scalable enterprise systems, we turn complex challenges into competitive advantages.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <button 
@@ -347,7 +347,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-teal-600 dark:text-teal-400 font-bold tracking-wide uppercase text-sm mb-2">What We Do</h2>
             <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-4">Comprehensive AI & Software Solutions</h3>
-            <p className="text-slate-600 dark:text-slate-300 text-lg">We offer end-to-end services in AI integration, custom software development, and strategic technical consulting to accelerate your digital transformation.</p>
+            <p className="text-slate-600 dark:text-slate-300 text-lg">We offer end-to-end services in AI Full Lifecycle, custom software development, and strategic technical consulting to accelerate your digital transformation.</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -880,6 +880,206 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Project 10 - Government Emergency Management */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-rose-500 to-red-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">🚨</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-rose-50 dark:bg-rose-900/30 text-rose-700 dark:text-rose-400 text-xs font-bold rounded-full uppercase">Emergency</span>
+                  <span className="px-3 py-1 bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400 text-xs font-bold rounded-full uppercase">Real-time</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Emergency Management Platform</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Real-time coordination system for emergency response, resource allocation, and public communication during crisis situations.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Crisis Management</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Resource Allocation</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Real-time Comms</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 11 - Government Internal Operations */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-slate-500 to-slate-700 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">🏢</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-slate-50 dark:bg-slate-900/30 text-slate-700 dark:text-slate-400 text-xs font-bold rounded-full uppercase">Government HR</span>
+                  <span className="px-3 py-1 bg-gray-50 dark:bg-gray-900/30 text-gray-700 dark:text-gray-400 text-xs font-bold rounded-full uppercase">Operations</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Government Operations Platform</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Digital workplace solution automating employee services, HR processes, and internal governmental operations.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">HR Automation</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Employee Portal</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Workflow</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 12 - Internal ERP Systems */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-amber-500 to-orange-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">⚙️</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 text-xs font-bold rounded-full uppercase">ERP</span>
+                  <span className="px-3 py-1 bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 text-xs font-bold rounded-full uppercase">Automation</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Internal ERP Systems</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Custom enterprise resource planning solutions automating core business processes from inventory to HR and finance.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Inventory</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">HR Management</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Finance</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 13 - AI Computer Vision (Land Incursion) */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-emerald-500 to-teal-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">🛰️</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 text-xs font-bold rounded-full uppercase">Remote Sensing</span>
+                  <span className="px-3 py-1 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-400 text-xs font-bold rounded-full uppercase">Computer Vision</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Land Monitoring AI System</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Novel computer vision pipeline for detecting land changes using satellite imagery, featuring custom metrics and super-resolution techniques.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Satellite Imagery</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Change Detection</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">GIS</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 14 - Spending Optimization AI */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-lime-500 to-green-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">💰</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-lime-50 dark:bg-lime-900/30 text-lime-700 dark:text-lime-400 text-xs font-bold rounded-full uppercase">AI Optimization</span>
+                  <span className="px-3 py-1 bg-green-50 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-xs font-bold rounded-full uppercase">Procurement</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Spending Optimization AI</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Framework agreement recommender analyzing spending patterns to optimize procurement and vendor relationships for government entities.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Graph Analytics</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Pattern Analysis</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Recommender</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 15 - GPS Attendance System */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-sky-500 to-blue-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">📍</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-sky-50 dark:bg-sky-900/30 text-sky-700 dark:text-sky-400 text-xs font-bold rounded-full uppercase">Mobile</span>
+                  <span className="px-3 py-1 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 text-xs font-bold rounded-full uppercase">GPS Tracking</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">GPS Attendance System</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Mobile application enabling location-verified attendance tracking and workforce management for remote teams.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Geolocation</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Mobile App</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Workforce</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 16 - E-commerce Marketplace */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-fuchsia-500 to-pink-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">🛒</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-fuchsia-50 dark:bg-fuchsia-900/30 text-fuchsia-700 dark:text-fuchsia-400 text-xs font-bold rounded-full uppercase">E-commerce</span>
+                  <span className="px-3 py-1 bg-pink-50 dark:bg-pink-900/30 text-pink-700 dark:text-pink-400 text-xs font-bold rounded-full uppercase">SaaS</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">E-commerce Solutions</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Full-spectrum e-commerce platforms including marketplace development, inventory management, and multi-vendor capabilities.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Marketplace</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Multi-vendor</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Inventory</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 17 - International P2P Ordering */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-yellow-500 to-orange-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">✈️</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-yellow-50 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400 text-xs font-bold rounded-full uppercase">Logistics</span>
+                  <span className="px-3 py-1 bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 text-xs font-bold rounded-full uppercase">P2P</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Peer-to-Peer Ordering Platform</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Marketplace platform facilitating international purchasing and delivery through peer-to-peer shipping networks.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">International</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Shipping Network</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Marketplace</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 18 - Real Estate & P2P Lending */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-stone-500 to-amber-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">🏠</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-stone-50 dark:bg-stone-900/30 text-stone-700 dark:text-stone-400 text-xs font-bold rounded-full uppercase">Real Estate</span>
+                  <span className="px-3 py-1 bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-400 text-xs font-bold rounded-full uppercase">P2P Lending</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Real Estate & Lending Platform</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Dual-platform combining property management tools with peer-to-peer lending for real estate projects and investments.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Property Mgmt</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Lending</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Investment</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Project 19 - UX Digital Transformation */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-pink-500 to-rose-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">🎨</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-pink-50 dark:bg-pink-900/30 text-pink-700 dark:text-pink-400 text-xs font-bold rounded-full uppercase">UX/UI</span>
+                  <span className="px-3 py-1 bg-rose-50 dark:bg-rose-900/30 text-rose-700 dark:text-rose-400 text-xs font-bold rounded-full uppercase">Design Systems</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Digital Experience Transformation</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">UX modernization initiatives for mobile and web applications, implementing design systems and improving conversion metrics.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Design Systems</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">UX Research</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Conversion</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -889,151 +1089,110 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-teal-600 dark:text-teal-400 font-bold tracking-wide uppercase text-sm mb-2">Leadership</h2>
-            <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-4">Meet Our Founders</h3>
-            <p className="text-slate-600 dark:text-slate-300 text-lg">Led by experienced entrepreneurs and engineers passionate about transforming businesses through AI and innovative technology solutions.</p>
+            <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-4">Our Expertise</h3>
+            <p className="text-slate-600 dark:text-slate-300 text-lg">Led by experienced entrepreneurs and engineers with a proven track record of delivering innovative AI and technology solutions across multiple industries.</p>
           </div>
 
-          {/* Founders Grid */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          {/* Combined Experience Grid */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             
-            {/* CEO - Mahmoud Hosny */}
-            <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-8 border border-slate-200 dark:border-slate-700">
-              <div className="flex flex-col items-center mb-6">
-                <div className="bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl w-32 h-32 flex items-center justify-center text-white text-5xl font-bold mb-4 shadow-lg">
-                  MH
+            {/* Technical Excellence */}
+            <div className="bg-gradient-to-br from-slate-50 to-blue-50 dark:from-slate-800 dark:to-blue-900/20 rounded-2xl p-8 border border-slate-200 dark:border-slate-700">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="bg-gradient-to-br from-teal-500 to-blue-600 rounded-xl w-14 h-14 flex items-center justify-center text-white text-2xl shadow-lg">
+                  🎓
                 </div>
-                <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Mahmoud Hosny</h4>
-                <p className="text-purple-600 dark:text-purple-400 font-semibold mb-4">Co-Founder & CEO</p>
-                <div className="flex gap-3">
-                  <a href="mailto:contact@inferasolutions.com" className="text-slate-600 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">
-                    <span className="text-2xl">✉</span>
-                  </a>
-                </div>
+                <h4 className="text-2xl font-bold text-slate-900 dark:text-white">Technical Excellence</h4>
               </div>
 
-              <div className="space-y-4">
-                <div>
-                  <h5 className="text-sm font-bold text-slate-900 dark:text-white mb-2 uppercase tracking-wide">About</h5>
-                  <p className="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">
-                    Enthusiastic entrepreneur with extensive knowledge in business and project management, combining tech-savvy orientation with an engineering background. Visionary leader focusing on Business Strategy, Innovation, Product Management & Entrepreneurship.
-                  </p>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <span className="text-teal-600 dark:text-teal-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">M.Sc. Computer & Systems Engineering with published research (WACV 2025, ICPR 2022)</span>
                 </div>
-
-                <div>
-                  <h5 className="text-sm font-bold text-slate-900 dark:text-white mb-2 uppercase tracking-wide">Key Experience</h5>
-                  <div className="space-y-2">
-                    <div className="flex items-start gap-2">
-                      <span className="text-purple-600 dark:text-purple-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">Enterprise AI Transformation & Strategy</span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-purple-600 dark:text-purple-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">AI Agents Orchestration Framework</span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-purple-600 dark:text-purple-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">Government Digital Platforms</span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-purple-600 dark:text-purple-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">FinTech & Payment Solutions</span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-purple-600 dark:text-purple-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">Healthcare & Telemedicine Platforms</span>
-                    </div>
-                  </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-teal-600 dark:text-teal-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Arabic OCR Engine deployed as SaaS for government sector</span>
                 </div>
-
-                <div>
-                  <h5 className="text-sm font-bold text-slate-900 dark:text-white mb-2 uppercase tracking-wide">Industries</h5>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400 rounded-md text-xs font-semibold">AI & Automation</span>
-                    <span className="px-2 py-1 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 rounded-md text-xs font-semibold">Government</span>
-                    <span className="px-2 py-1 bg-green-50 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-md text-xs font-semibold">FinTech</span>
-                    <span className="px-2 py-1 bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 rounded-md text-xs font-semibold">Healthcare</span>
-                    <span className="px-2 py-1 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-400 rounded-md text-xs font-semibold">Real Estate</span>
-                    <span className="px-2 py-1 bg-pink-50 dark:bg-pink-900/30 text-pink-700 dark:text-pink-400 rounded-md text-xs font-semibold">E-commerce</span>
-                  </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-teal-600 dark:text-teal-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">AI Revenue Forecasting maintaining 20+ ML models (PEFA compliant)</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-teal-600 dark:text-teal-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Medical AI systems for Glaucoma and Diabetic Retinopathy detection</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-teal-600 dark:text-teal-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Computer Vision R&D with satellite imagery and land detection</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-teal-600 dark:text-teal-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Production MLOps deployment with PyTorch, TensorFlow, Docker</span>
                 </div>
               </div>
             </div>
 
-            {/* CTO - Moustafa Wassel */}
-            <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-8 border border-slate-200 dark:border-slate-700">
-              <div className="flex flex-col items-center mb-6">
-                <div className="bg-gradient-to-br from-teal-500 to-blue-600 rounded-xl w-32 h-32 flex items-center justify-center text-white text-5xl font-bold mb-4 shadow-lg">
-                  MW
+            {/* Business Leadership */}
+            <div className="bg-gradient-to-br from-slate-50 to-purple-50 dark:from-slate-800 dark:to-purple-900/20 rounded-2xl p-8 border border-slate-200 dark:border-slate-700">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl w-14 h-14 flex items-center justify-center text-white text-2xl shadow-lg">
+                  🚀
                 </div>
-                <h4 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Moustafa Wassel</h4>
-                <p className="text-teal-600 dark:text-teal-400 font-semibold mb-4">Co-Founder & CTO</p>
-                <div className="flex gap-3">
-                  <a href="https://www.linkedin.com/in/mostafa-wassel" target="_blank" rel="noopener noreferrer" className="text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                    <span className="text-2xl">in</span>
-                  </a>
-                  <a href="mailto:mostafa.wassel.dio@gmail.com" className="text-slate-600 dark:text-slate-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors">
-                    <span className="text-2xl">✉</span>
-                  </a>
-                </div>
+                <h4 className="text-2xl font-bold text-slate-900 dark:text-white">Business Leadership</h4>
               </div>
 
-              <div className="space-y-4">
-                <div>
-                  <h5 className="text-sm font-bold text-slate-900 dark:text-white mb-2 uppercase tracking-wide">Education & Research</h5>
-                  <div className="space-y-1">
-                    <p className="text-slate-600 dark:text-slate-300 text-sm">
-                      <span className="font-semibold">M.Sc.</span> Computer & Systems Engineering
-                    </p>
-                    <p className="text-slate-600 dark:text-slate-300 text-sm">
-                      <span className="font-semibold">B.Eng.</span> Computer & Communication Engineering
-                    </p>
-                    <p className="text-slate-600 dark:text-slate-300 text-sm mt-2">
-                      <span className="font-semibold">Published:</span> WACV 2025, ICPR 2022, HEALTHINF 2021
-                    </p>
-                  </div>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <span className="text-purple-600 dark:text-purple-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Enterprise AI Transformation strategy and implementation</span>
                 </div>
-
-                <div>
-                  <h5 className="text-sm font-bold text-slate-900 dark:text-white mb-2 uppercase tracking-wide">Key Experience</h5>
-                  <div className="space-y-2">
-                    <div className="flex items-start gap-2">
-                      <span className="text-teal-600 dark:text-teal-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">Arabic OCR Engine (SaaS)</span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-teal-600 dark:text-teal-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">AI Revenue Forecasting Systems</span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-teal-600 dark:text-teal-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">Computer Vision R&D</span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-teal-600 dark:text-teal-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">Medical AI (Glaucoma, Diabetic Retinopathy)</span>
-                    </div>
-                    <div className="flex items-start gap-2">
-                      <span className="text-teal-600 dark:text-teal-400 mt-0.5">✓</span>
-                      <span className="text-slate-600 dark:text-slate-300 text-sm">Production ML Model Deployment</span>
-                    </div>
-                  </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-purple-600 dark:text-purple-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">AI Agents Orchestration platform for autonomous workflows</span>
                 </div>
-
-                <div>
-                  <h5 className="text-sm font-bold text-slate-900 dark:text-white mb-2 uppercase tracking-wide">Technical Stack</h5>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 rounded-md text-xs font-semibold">PyTorch</span>
-                    <span className="px-2 py-1 bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400 rounded-md text-xs font-semibold">TensorFlow</span>
-                    <span className="px-2 py-1 bg-green-50 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-md text-xs font-semibold">OpenCV</span>
-                    <span className="px-2 py-1 bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 rounded-md text-xs font-semibold">Scikit-learn</span>
-                    <span className="px-2 py-1 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-400 rounded-md text-xs font-semibold">Docker</span>
-                    <span className="px-2 py-1 bg-pink-50 dark:bg-pink-900/30 text-pink-700 dark:text-pink-400 rounded-md text-xs font-semibold">Python</span>
-                  </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-purple-600 dark:text-purple-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Government Digital Services platforms for citizen engagement</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-purple-600 dark:text-purple-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">FinTech payment processing systems with fraud detection</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-purple-600 dark:text-purple-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Healthcare & Telemedicine platforms with video conferencing</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-purple-600 dark:text-purple-400 mt-1">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Enterprise ERP and Business Intelligence solutions</span>
                 </div>
               </div>
             </div>
 
           </div>
+
+          {/* Industries */}
+          <div className="mt-12 max-w-5xl mx-auto">
+            <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-8 border border-slate-200 dark:border-slate-700">
+              <div>
+                <h5 className="text-lg font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+                  <span className="text-2xl">🏢</span>
+                  Industries Served
+                </h5>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1.5 bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400 rounded-lg text-sm font-semibold">AI & Automation</span>
+                  <span className="px-3 py-1.5 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 rounded-lg text-sm font-semibold">Government</span>
+                  <span className="px-3 py-1.5 bg-green-50 dark:bg-green-900/30 text-green-700 dark:text-green-400 rounded-lg text-sm font-semibold">FinTech</span>
+                  <span className="px-3 py-1.5 bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 rounded-lg text-sm font-semibold">Healthcare</span>
+                  <span className="px-3 py-1.5 bg-teal-50 dark:bg-teal-900/30 text-teal-700 dark:text-teal-400 rounded-lg text-sm font-semibold">Real Estate</span>
+                  <span className="px-3 py-1.5 bg-pink-50 dark:bg-pink-900/30 text-pink-700 dark:text-pink-400 rounded-lg text-sm font-semibold">E-commerce</span>
+                  <span className="px-3 py-1.5 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400 rounded-lg text-sm font-semibold">Education</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -1114,8 +1273,8 @@ export default function Home() {
               </div>
               <p className="text-sm text-slate-400 dark:text-slate-500 mb-6">Transforming complex data into actionable intelligence through cutting-edge AI and ML solutions.</p>
               <div className="flex space-x-4">
-                <a href="https://www.linkedin.com/in/mostafa-wassel" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">in</a>
                 <a href="mailto:mostafa.wassel.dio@gmail.com" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">✉</a>
+                <a href="tel:+201111154955" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">📞</a>
               </div>
             </div>
             
