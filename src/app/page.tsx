@@ -341,6 +341,152 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Outsourcing Section */}
+      <section id="outsourcing" className="py-24 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Header */}
+          <div className="text-center max-w-4xl mx-auto mb-16">
+            <h2 className="text-teal-600 dark:text-teal-400 font-bold tracking-wide uppercase text-sm mb-2">Outsourcing Excellence</h2>
+            <h3 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white mb-6">Software & AI Engineering Outsourcing</h3>
+            <p className="text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
+              Build your own virtual team of Infera Solutions experts dedicated exclusively to your project. We help you avoid the challenges of forming an in-house development unit and the infinite loop of employee turnover and rising operational costs.
+            </p>
+          </div>
+
+          {/* Main Benefits Grid */}
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            {/* Software Outsourcing */}
+            <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-lg border border-slate-200 dark:border-slate-700">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl flex items-center justify-center text-white text-3xl shadow-lg">
+                  💻
+                </div>
+                <h4 className="text-2xl font-bold text-slate-900 dark:text-white">Software Outsourcing</h4>
+              </div>
+              <p className="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
+                Access experienced web and mobile app developers working across different platforms to build high-performance, highly available solutions with exceptional user experience.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <span className="text-teal-500 dark:text-teal-400 text-xl mt-0.5">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Dedicated team exclusively for your project</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-teal-500 dark:text-teal-400 text-xl mt-0.5">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Full control over resources, cost, and timeline</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-teal-500 dark:text-teal-400 text-xl mt-0.5">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Scalable solutions from startups to enterprises</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-teal-500 dark:text-teal-400 text-xl mt-0.5">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">New development or maintenance of existing systems</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* AI Engineering Outsourcing */}
+            <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-lg border border-slate-200 dark:border-slate-700">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-2xl flex items-center justify-center text-white text-3xl shadow-lg">
+                  🧠
+                </div>
+                <h4 className="text-2xl font-bold text-slate-900 dark:text-white">AI Engineering Outsourcing</h4>
+              </div>
+              <p className="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
+                Leverage our ML/DL expertise to build production-ready AI solutions. From research to deployment, we handle the full AI lifecycle with cutting-edge technologies.
+              </p>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <span className="text-purple-500 dark:text-purple-400 text-xl mt-0.5">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Expert ML/DL engineers with proven track record</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-purple-500 dark:text-purple-400 text-xl mt-0.5">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Computer vision, NLP, and predictive analytics</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-purple-500 dark:text-purple-400 text-xl mt-0.5">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">MLOps, model deployment, and optimization</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-purple-500 dark:text-purple-400 text-xl mt-0.5">✓</span>
+                  <span className="text-slate-700 dark:text-slate-300">Research-backed solutions with measurable impact</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Dedicated Team Model */}
+          <div className="bg-gradient-to-br from-teal-600 to-cyan-600 rounded-3xl p-10 md:p-12 text-white shadow-2xl mb-16">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-block p-4 bg-white/10 rounded-2xl backdrop-blur-sm mb-6">
+                <span className="text-5xl">🎯</span>
+              </div>
+              <h4 className="text-3xl font-bold mb-4">Our Dedicated Team Model</h4>
+              <p className="text-lg text-teal-50 leading-relaxed mb-8">
+                Build your team to develop new solutions or enhance existing ones—you maintain full control of the project's scope, timeline, and deliverables. Our model eliminates the risks and costs of employee turnover while ensuring consistent quality and expertise.
+              </p>
+              <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                  <div className="text-3xl mb-2">⚡</div>
+                  <div className="font-bold text-xl mb-2">Full Control</div>
+                  <div className="text-teal-100 text-sm">Resources, Cost & Timeline</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                  <div className="text-3xl mb-2">🔄</div>
+                  <div className="font-bold text-xl mb-2">Flexibility</div>
+                  <div className="text-teal-100 text-sm">Scale Team Up or Down</div>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                  <div className="text-3xl mb-2">🎓</div>
+                  <div className="font-bold text-xl mb-2">Expertise</div>
+                  <div className="text-teal-100 text-sm">Vetted Senior Engineers</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Why Choose Us */}
+          <div className="max-w-5xl mx-auto">
+            <h4 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-white text-center mb-12">Why Outsource with Infera Solutions?</h4>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="text-center p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                <div className="text-4xl mb-4">💰</div>
+                <h5 className="font-bold text-slate-900 dark:text-white mb-2">Cost Efficiency</h5>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Reduce operational costs without compromising quality</p>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                <div className="text-4xl mb-4">⏱️</div>
+                <h5 className="font-bold text-slate-900 dark:text-white mb-2">Time Efficiency</h5>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Faster delivery with dedicated resources</p>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                <div className="text-4xl mb-4">🏆</div>
+                <h5 className="font-bold text-slate-900 dark:text-white mb-2">Proven Quality</h5>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Delivered solutions across USA, UK, Egypt, KSA, UAE</p>
+              </div>
+              <div className="text-center p-6 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                <div className="text-4xl mb-4">🔒</div>
+                <h5 className="font-bold text-slate-900 dark:text-white mb-2">Risk Mitigation</h5>
+                <p className="text-sm text-slate-600 dark:text-slate-400">No employee turnover, consistent expertise</p>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA */}
+          <div className="text-center mt-16">
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="px-10 py-4 bg-teal-600 text-white rounded-xl font-bold text-lg hover:bg-teal-500 transition-all shadow-lg hover:shadow-teal-500/50 inline-flex items-center gap-3"
+            >
+              Build Your Team Today <span>→</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section id="services" className="py-24 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -357,8 +503,7 @@ export default function Home() {
                 <span>🤖</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">AI Full Lifecycle - Research to Deployment</h4>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Complete AI journey from research and model development through production deployment and integration. We handle everything from data preparation to scalable MLOps infrastructure.</p>
-              <button onClick={() => setIsModalOpen(true)} className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Let&apos;s Talk <span className="text-xs">→</span></button>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed">Complete AI journey from research and model development through production deployment and integration. We handle everything from data preparation to scalable MLOps infrastructure.</p>
             </div>
 
             {/* Service 2 */}
@@ -367,8 +512,7 @@ export default function Home() {
                 <span>💻</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Custom Software Development</h4>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Full-stack web and mobile applications, APIs, and enterprise systems built with modern frameworks and best practices for scalability and performance.</p>
-              <button onClick={() => setIsModalOpen(true)} className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Let&apos;s Talk <span className="text-xs">→</span></button>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed">Full-stack web and mobile applications, APIs, and enterprise systems built with modern frameworks and best practices for scalability and performance.</p>
             </div>
 
             {/* Service 3 */}
@@ -377,8 +521,7 @@ export default function Home() {
                 <span>☁️</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Cloud & DevOps Engineering</h4>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Cloud architecture, containerization, CI/CD pipelines, and infrastructure automation for reliable, scalable deployments on AWS, Azure, or GCP.</p>
-              <button onClick={() => setIsModalOpen(true)} className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Let&apos;s Talk <span className="text-xs">→</span></button>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed">Cloud architecture, containerization, CI/CD pipelines, and infrastructure automation for reliable, scalable deployments on AWS, Azure, or GCP.</p>
             </div>
 
             {/* Service 4 */}
@@ -387,8 +530,7 @@ export default function Home() {
                 <span>📊</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Data Engineering & Analytics</h4>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Data pipelines, ETL processes, data warehousing, and business intelligence solutions to transform raw data into actionable insights.</p>
-              <button onClick={() => setIsModalOpen(true)} className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Let&apos;s Talk <span className="text-xs">→</span></button>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed">Data pipelines, ETL processes, data warehousing, and business intelligence solutions to transform raw data into actionable insights.</p>
             </div>
 
             {/* Service 5 */}
@@ -397,8 +539,7 @@ export default function Home() {
                 <span>🏗️</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Technical Consulting & Architecture</h4>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Strategic technology planning, system architecture design, code reviews, and technical leadership to guide your development initiatives.</p>
-              <button onClick={() => setIsModalOpen(true)} className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Let&apos;s Talk <span className="text-xs">→</span></button>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed">Strategic technology planning, system architecture design, code reviews, and technical leadership to guide your development initiatives.</p>
             </div>
 
             {/* Service 6 */}
@@ -407,9 +548,18 @@ export default function Home() {
                 <span>🔄</span>
               </div>
               <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Process Automation & Integration</h4>
-              <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">Streamline operations with workflow automation, system integrations, API development, and intelligent process optimization solutions.</p>
-              <button onClick={() => setIsModalOpen(true)} className="text-teal-600 dark:text-teal-400 font-semibold hover:underline flex items-center gap-1">Let&apos;s Talk <span className="text-xs">→</span></button>
+              <p className="text-slate-600 dark:text-slate-300 leading-relaxed">Streamline operations with workflow automation, system integrations, API development, and intelligent process optimization solutions.</p>
             </div>
+          </div>
+
+          {/* CTA Button at the end */}
+          <div className="text-center mt-12">
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="px-10 py-4 bg-teal-600 text-white rounded-xl font-bold text-lg hover:bg-teal-500 transition-all shadow-lg hover:shadow-teal-500/50 inline-flex items-center gap-3"
+            >
+              Let&apos;s Talk About Your Project <span>→</span>
+            </button>
           </div>
         </div>
       </section>
