@@ -87,11 +87,12 @@ export default function Home() {
 
             {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8 items-center">
+              <a href="#outsourcing" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Outsourcing</a>
               <a href="#services" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Services</a>
               <a href="#our-work" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Our Work</a>
               <a href="#expertise" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Expertise</a>
               <a href="#approach" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Our Approach</a>
-              <a href="#leadership" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">About</a>
+              <a href="#expertise" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">About</a>
 
               <button
                 onClick={() => setIsModalOpen(true)}
@@ -170,17 +171,6 @@ export default function Home() {
                   className="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-700 dark:text-white"
                   placeholder="your@email.com"
                   required
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Phone Number</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  className="w-full px-4 py-2 border border-slate-300 dark:border-slate-600 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent dark:bg-slate-700 dark:text-white"
-                  placeholder="+1 (555) 000-0000"
                 />
               </div>
               
@@ -381,7 +371,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-teal-500 dark:text-teal-400 text-xl mt-0.5">✓</span>
-                  <span className="text-slate-700 dark:text-slate-300">New development or maintenance of existing systems</span>
+                  <span className="text-slate-700 dark:text-slate-300">From Scratch development or maintenance of existing systems</span>
                 </li>
               </ul>
             </div>
@@ -1424,27 +1414,26 @@ export default function Home() {
               <p className="text-sm text-slate-400 dark:text-slate-500 mb-6">Transforming complex data into actionable intelligence through cutting-edge AI and ML solutions.</p>
               <div className="flex space-x-4">
                 <a href="mailto:mostafa.wassel.dio@gmail.com" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">✉</a>
-                <a href="tel:+201111154955" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">📞</a>
               </div>
             </div>
             
             <div>
               <h4 className="text-white font-bold mb-4 uppercase text-sm tracking-wider">Company</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-teal-400 transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-teal-400 transition-colors">Our Team</a></li>
-                <li><a href="#" className="hover:text-teal-400 transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-teal-400 transition-colors">Blog</a></li>
+                <li><a href="#expertise" className="hover:text-teal-400 transition-colors">About Us</a></li>
+                <li><a href="#expertise" className="hover:text-teal-400 transition-colors">Our Team</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="text-white font-bold mb-4 uppercase text-sm tracking-wider">Services</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-teal-400 transition-colors">Web Development</a></li>
-                <li><a href="#" className="hover:text-teal-400 transition-colors">Mobile Apps</a></li>
-                <li><a href="#" className="hover:text-teal-400 transition-colors">AI Solutions</a></li>
-                <li><a href="#" className="hover:text-teal-400 transition-colors">Cloud DevOps</a></li>
+                <li><a href="#services" className="hover:text-teal-400 transition-colors">AI Full Lifecycle</a></li>
+                <li><a href="#services" className="hover:text-teal-400 transition-colors">Custom Software Development</a></li>
+                <li><a href="#services" className="hover:text-teal-400 transition-colors">Cloud & DevOps</a></li>
+                <li><a href="#services" className="hover:text-teal-400 transition-colors">Data Engineering</a></li>
+                <li><a href="#services" className="hover:text-teal-400 transition-colors">Technical Consulting</a></li>
+                <li><a href="#services" className="hover:text-teal-400 transition-colors">Process Automation</a></li>
               </ul>
             </div>
 
@@ -1453,7 +1442,6 @@ export default function Home() {
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start gap-2"><span className="text-teal-500">📍</span> Egypt</li>
                 <li className="flex items-center gap-2"><span className="text-teal-500">✉️</span> mostafa.wassel.dio@gmail.com</li>
-                <li className="flex items-center gap-2"><span className="text-teal-500">📞</span> +201111154955</li>
               </ul>
             </div>
           </div>
