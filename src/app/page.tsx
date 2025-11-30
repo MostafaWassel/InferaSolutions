@@ -1363,7 +1363,7 @@ export default function Home() {
             </button>
             
             <a 
-              href="mailto:mostafa.wassel.dio@gmail.com" 
+              href="mailto:info@infera.solutions" 
               className="px-10 py-5 bg-transparent border-2 border-white text-white rounded-full font-bold text-lg hover:bg-white hover:text-teal-600 transition-all inline-flex items-center gap-3"
             >
               Send Us an Email
@@ -1413,7 +1413,7 @@ export default function Home() {
               </div>
               <p className="text-sm text-slate-400 dark:text-slate-500 mb-6">Transforming complex data into actionable intelligence through cutting-edge AI and ML solutions.</p>
               <div className="flex space-x-4">
-                <a href="mailto:mostafa.wassel.dio@gmail.com" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">✉</a>
+                <a href="mailto:info@infera.solutions" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center hover:bg-teal-500 hover:text-white transition-colors">✉</a>
               </div>
             </div>
             
@@ -1441,7 +1441,7 @@ export default function Home() {
               <h4 className="text-white font-bold mb-4 uppercase text-sm tracking-wider">Contact</h4>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-start gap-2"><span className="text-teal-500">📍</span> Egypt</li>
-                <li className="flex items-center gap-2"><span className="text-teal-500">✉️</span> mostafa.wassel.dio@gmail.com</li>
+                <li className="flex items-center gap-2"><span className="text-teal-500">✉️</span> info@infera.solutions</li>
               </ul>
             </div>
           </div>
