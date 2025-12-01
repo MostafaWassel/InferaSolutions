@@ -92,7 +92,7 @@ export default function Home() {
               <a href="#our-work" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Our Work</a>
               <a href="#expertise" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Expertise</a>
               <a href="#approach" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">Our Approach</a>
-              <a href="#expertise" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">About</a>
+              <a href="#leadership" className="text-slate-600 dark:text-slate-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition-colors">About</a>
 
               <button
                 onClick={() => setIsModalOpen(true)}
@@ -1220,6 +1220,28 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Project 20 - Data Genius */}
+            <div className="bg-white dark:bg-slate-900 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-indigo-500 to-purple-600 p-8 flex items-center justify-center aspect-video">
+                <span className="text-6xl">🧠</span>
+              </div>
+              <div className="p-6">
+                <div className="flex gap-2 mb-3">
+                  <span className="px-3 py-1 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-400 text-xs font-bold rounded-full uppercase">AI</span>
+                  <span className="px-3 py-1 bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-400 text-xs font-bold rounded-full uppercase">Data Analytics</span>
+                </div>
+                <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-2">Data Genius - AI Data Exploration Engine</h4>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">AI-powered data exploration platform that converts natural language to SQL, executes queries, generates insights with automated analysis, and provides time-series forecasting - all through conversational interface.</p>
+                <div className="flex flex-wrap gap-2 mt-4">
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">NL to SQL</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">LLM</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">DuckDB</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">ARIMA</span>
+                  <span className="text-xs px-2 py-1 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded">Forecasting</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -1420,7 +1442,7 @@ export default function Home() {
             <div>
               <h4 className="text-white font-bold mb-4 uppercase text-sm tracking-wider">Company</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#expertise" className="hover:text-teal-400 transition-colors">About Us</a></li>
+                <li><a href="#leadership" className="hover:text-teal-400 transition-colors">About Us</a></li>
                 <li><a href="#expertise" className="hover:text-teal-400 transition-colors">Our Team</a></li>
               </ul>
             </div>
